@@ -1,0 +1,13 @@
+prefix=D:/pdf/pdf/Library
+exec_prefix=D:/pdf/pdf/Library
+libdir=D:/pdf/pdf/Library/lib
+sharedlibdir=D:/pdf/pdf/Library/lib
+includedir=D:/pdf/pdf/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
